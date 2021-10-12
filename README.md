@@ -32,7 +32,7 @@
 1. Call the centroid coordinates and use the 4 direction variables defined in point 3 in part B.
 2. Assign those directions to the snake's movements.
 3. Make sure the snake's next movement cannot be the reverse of the current direction it's moving in.
-4. If the snake's movements matcehs any of the direction variables, move the snake in that specific direction.
+4. If the snake's movements matches any of the direction variables, move the snake in that specific direction.
 5. Use the random function to select the x and y coordinate of the food.
 6. When the snake eats the food, increment the score by 10 and the length of the snake.
 7. Call the hurdle function to add hurdle to the snake game.
