@@ -1,5 +1,5 @@
 # Stylus-Controlled-Snake-Game
-#### Task:- Creating a snake game which can be controlled using a stylus
+#### Task:- Creating a snake game which can be played using a stylus
 
 1. Initialize the coordinates of the centroid of the stylus, score and define some colors.
 2. Set the size of the game window.
