@@ -99,7 +99,7 @@ left = region(0, 0, 320, 240, 0, 480, cx, cy) #Region for stylus to make the sna
 right = region(640, 0, 320, 240, 640, 480, cx, cy) #Region for stylus to make the snake go 'RIGHT'
 
 
-os.environ['SDL_VIDEO_WINDOW_POS'] = "%d,%d" % (780, 130)
+os.environ['SDL_VIDEO_WINDOW_POS'] = "%d,%d" % (630, 120)
 pygame.init() #Initializing the pygame module
 
 #Starting the game window
