@@ -20,7 +20,7 @@
 13. If 'esc' is pressed, break the frame capturing sequence. 
 
 ![Snap](https://user-images.githubusercontent.com/89793505/137143426-98663d3e-9de2-46fe-81f3-ac8ae3f8dcfa.png)
-### **Dividing the frame into 4 equal regions** 
+ **Dividing the frame into 4 equal regions** 
 
 ### B) Defining Functions:-
 1. Define a function to calculate the area of a triangle.
