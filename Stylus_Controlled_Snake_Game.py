@@ -146,17 +146,13 @@ def show_score(choice, color, font, size):
 
 #Defining functions for generating obstacles in the game
 def hurdle_1():
-    pygame.draw.rect(window, hurdle_color, pygame.Rect(350, 140, 200, 20))
-    pygame.draw.rect(window, hurdle_color, pygame.Rect(100, 240, 200, 20))
-    pygame.draw.rect(window, hurdle_color, pygame.Rect(350, 340, 200, 20))
-
+    pygame.draw.rect(window, hurdle_color, pygame.Rect(300, 130, 240, 20))
+    pygame.draw.rect(window, hurdle_color, pygame.Rect(50, 190, 200, 20))
 
 def hurdle_2():
-    pygame.draw.rect(window, hurdle_color, pygame.Rect(100, 140, 20, 130))
+    pygame.draw.rect(window, hurdle_color, pygame.Rect(120, 150, 30, 100))
     pygame.draw.rect(window, hurdle_color, pygame.Rect(120, 140, 120, 20))
     pygame.draw.rect(window, hurdle_color, pygame.Rect(400, 260, 20, 130))
-    pygame.draw.rect(window, hurdle_color, pygame.Rect(420, 370, 120, 20))
-
 
 def hurdle_3():
     pygame.draw.rect(window, hurdle_color, pygame.Rect(100, 280, 120, 20))
@@ -164,18 +160,15 @@ def hurdle_3():
     pygame.draw.rect(window, hurdle_color, pygame.Rect(400, 100, 20, 130))
     pygame.draw.rect(window, hurdle_color, pygame.Rect(420, 210, 120, 20))
 
-
 def hurdle_4():
     pygame.draw.rect(window, hurdle_color, pygame.Rect(100, 140, 200, 20))
     pygame.draw.rect(window, hurdle_color, pygame.Rect(280, 160, 20, 120))
     pygame.draw.rect(window, hurdle_color, pygame.Rect(300, 260, 200, 20))
     pygame.draw.rect(window, hurdle_color, pygame.Rect(480, 280, 20, 100))
 
-
 def hurdle_5():
     pygame.draw.rect(window, hurdle_color, pygame.Rect(130, 130, 100, 100))
     pygame.draw.rect(window, hurdle_color, pygame.Rect(420, 290, 100, 100))
-
 
 hur = random.choice([0,1,2,3,4]) #Using the random function to choose an obstacle at random
 
@@ -273,17 +266,15 @@ while True:
 
     # Touching the obstacles
     if hur == 0:
-        if (340 < snake_position[0] < 550 and 130 < snake_position[1] < 160) or (
-                90 < snake_position[0] < 300 and 230 < snake_position[1] < 260) or (
-                340 < snake_position[0] < 550 and 330 < snake_position[1] < 360):
+        if (290 < snake_position[0] < 540 and 120 < snake_position[1] < 150) or (
+                40 < snake_position[0] < 300 and 180 < snake_position[1] < 210):
             food_spawn = True
             game_over()
             break
     elif hur == 1:
-        if (90 < snake_position[0] < 120 and 130 < snake_position[1] < 270) or (
-                110 < snake_position[0] < 240 and 130 < snake_position[1] < 160) or (
-                390 < snake_position[0] < 420 and 250 < snake_position[1] < 390) or (
-                410 < snake_position[0] < 540 and 360 < snake_position[1] < 390):
+        if (100 < snake_position[0] < 150 and 100 < snake_position[1] < 250) or (
+                80 < snake_position[0] < 300 and 160 < snake_position[1] < 210) or (
+                390 < snake_position[0] < 420 and 250 < snake_position[1] < 390):
             food_spawn = True
             game_over()
             break
