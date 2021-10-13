@@ -19,6 +19,9 @@
 12. Find the moment and the centroid of the stylus.
 13. If 'esc' is pressed, break the frame capturing sequence. 
 
+![Snap](https://user-images.githubusercontent.com/89793505/137143426-98663d3e-9de2-46fe-81f3-ac8ae3f8dcfa.png)
+
+
 ### B) Defining Functions:-
 1. Define a function to calculate the area of a triangle.
 2. Define a function to check if a point lies inside a triangular region or not.
