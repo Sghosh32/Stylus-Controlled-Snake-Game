@@ -31,6 +31,9 @@
 6. Define some functions which will act as obstacles in the snake game.
 7. Use the random function to randomly call any of the defined obstacles.
 
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/89793505/137146636-dca5119c-4865-42c5-a94b-3d0384e25208.gif)
+### Snake movement in the region of stylus detection
+
 ### C) Snake Game Logic:-
 1. Call the centroid coordinates and use the 4 direction variables defined in point 3 in part B.
 2. Assign those directions to the snake's movements.
