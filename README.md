@@ -10,7 +10,7 @@
 3. Apply Gaussian blur to reduce the noise in the frames captured.
 4. Convert the frames from BGR to HSV.
 5. Put the values of the lower and higher HSV values in different arrays.
-6. Create a mask using the values in point 7.
+6. Create a mask using the values in point 5.
 7. Applying closing on the mask to remove the noise present in the frames being captured.
 8. Dilation is applied after closing to remove the dark areas in the mask and it is applied twice to get a consistent shade.
 9. Thresholding is applied to get the required part in stylus.
